@@ -1,0 +1,464 @@
+.clearfix{zoom:1}
+.clearfix:after{
+    content:'.';
+    clear:both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+
+}
+nav{
+    background: rgb(241, 109, 28);
+}
+
+
+header {
+    background-image: url(https://ninetheme.com/themes/techland/wp-content/uploads/2019/05/base_bg_3.jpg);
+    min-height: 600px;
+    background-repeat: no-repeat;
+    background-position: 50%, 50%;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.navbar-brand {
+    filter: brightness(0.25);
+        -webkit-filter: brightness(0.25);
+}
+
+.nav-link {
+    position: relative;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+.nav-item {
+    position: relative;
+}
+
+.navbar-nav {
+    position: relative;
+
+}
+
+.nav-link:before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background: #fff;
+    z-index: 1111;
+    opacity: 0;
+    transition: .3s ease-in-out;
+}
+
+.nav-item:hover .nav-link:before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background: #fff;
+    z-index: 1111;
+    opacity: 1;
+    transition: .3s ease-in-out;
+}
+
+.nav-link:hover {
+    color: #fff;
+}
+
+.herobox {
+    width: 400px;
+}
+
+.herobox h1 span {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.herobox .btn {
+    background: #fff;
+    border-radius: 25px;
+}
+
+.herobox .btn:hover {
+    background: #065246;
+    color: #fff;
+}
+
+.card-body .btn {
+    background: #F57A36;
+    border-radius: 25px;
+}
+
+.card-body .btn:hover {
+    background: #065246;
+    color: #fff
+}
+
+#hero .card {
+    margin-left: auto;
+}
+#hero{
+    margin-top: 60px;
+}
+#hero .card h5 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+/*ABOUT*/
+#about h5 {
+    color: #F57A36;
+    text-transform: uppercase
+}
+
+#about h2 span {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+#about p span {
+    color: #000;
+}
+
+/*FEATURE*/
+#feature .feature-icon {
+    position: relative;
+    width: 100px;
+    height: 70px;
+    border: 1px solid #ddd;
+    margin-right: .6rem;
+    border-radius: 50px;
+    background: #FBF4F1;
+
+}
+
+#feature .feature-icon .fea_icon {
+    position: absolute;
+    left: 14px;
+    top: 9px;
+    color: #e85615;
+}
+
+#feature .feature-content {
+    margin-left: 10px;
+}
+
+#feature .feature-content h4 {
+    color: #000;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+#feature .myfeature-box {
+    margin-top: 70px;
+
+}
+
+/*SERVICES*/
+
+#services {
+    min-height: 600px;
+    background-image: url(https://ninetheme.com/themes/techland/wp-content/uploads/2019/05/base_bg_3.jpg);
+    background-repeat: no-repeat;
+    background-position: 50%, 50%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#services .myrow {
+    margin-top: 100px;
+}
+
+#services .service-content h6 {
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+#services .service-content h2 {
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+#services .service-content h2 span {
+    font-weight: bold;
+}
+
+#services .servic-icon {
+    position: relative;
+    width: 70px;
+    height: 70px;
+    border: 1px solid #ddd;
+    margin-right: .6rem;
+    border-radius: 50px;
+    background: #FBF4F1;
+}
+
+#services .serv-icon {
+    position: absolute;
+    left: 14px;
+    top: 9px;
+    color: #e85615;
+}
+
+.service-icon-content h5 {
+    font-weight: 600;
+}
+
+/*PRICING*/
+
+#pricing {
+    padding-top: 30px;
+}
+
+#pricing h6 {
+    color: #F57A36;
+    text-transform: uppercase;
+    font-style: 14px;
+    padding-top: 10px;
+}
+
+#pricing h2 span {
+    font-style: 40px;
+    color: #000;
+    font-weight: 700;
+    padding-top: 6px;
+}
+
+
+#pricing h2 {
+    font-style: 40px;
+    padding-top: 10px;
+}
+
+#pricing .pricing-table {
+    background: #fff;
+}
+
+#pricing .pricing-table .__title {
+    color: #000;
+}
+
+#pricing .pricing-table .__price {
+    font-size: 50px;
+    font-weight: 500;
+}
+
+#pricing ul {
+    list-style: none;
+    margin-left: auto;
+}
+
+#pricing ul li {
+    padding-top: 10px;
+    
+}
+
+#pricing .btn {
+    padding: 10px 46px;
+    border-radius: 30px;
+    background: rgba(219, 146, 28, 0.31);
+    color: #e85615;
+}
+#pricing .btn:hover{
+    background: rgb(219, 146, 28);
+    color: #fff;
+}
+/*INFO*/
+
+#info .info-content h6{
+    color: #F57A36;
+    text-transform: uppercase;
+    font-style: 14px;
+    padding-top: 10px;
+}
+
+#info .info-content h2{
+    font-style: 40px;
+    padding-top: 10px;
+}
+#info .info-content h2 span{
+    font-style: 40px;
+    color: #000;
+    font-weight: 700;
+    padding-top: 10px;
+}
+#info .info-counter img{
+    width: 100px;
+    height: 100px;
+    padding-bottom: 10px;
+}
+
+#info .info-counter h1{
+    font-size: 60px;
+    font-weight: bold;
+}
+#info .info-counter p{
+    font-weight: 600;
+}
+#info .serv-icon{
+        fill:red;
+}
+/*TEAM*/
+#team{
+    background-image: url(https://ninetheme.com/themes/techland/wp-content/uploads/2019/05/base_bg_3_2.jpg?id=836);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 100px;
+}
+
+#team h6{
+    color: #F57A36;
+    text-transform: uppercase;
+    font-style: 14px;
+    padding-top: 10px;
+}
+#team h2{
+    font-style: 40px;
+    padding-top: 10px;
+}
+
+#team h2 span{
+    font-style: 40px;
+    color: #000;
+    font-weight: 700;
+    padding-top: 10px;
+}
+
+#team .team-photo{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin-bottom: 0;
+    transition:transform .7s;
+}
+#team .team-photo img:hover{
+    transform: scale(1.25);
+    transition:transform .7s;
+}
+#team  .team-link {
+    margin-right: 40px;
+}
+#team  .team-link li{
+    list-style: none;
+    margin-left: 15px;
+}
+#team  .team-link .bi{
+    color: #000;
+}
+
+/*TESTIMONIAL*/
+
+#textmonial{
+    background-image: url(https://ninetheme.com/themes/techland/wp-content/uploads/2019/05/base_bg_3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 600px;
+}
+#textmonial h6{
+    color: #fff;
+    text-transform: uppercase;
+}
+#textmonial h1{
+    font-style: 40px;
+    color: #fff;
+}
+#textmonial h1 span{
+    font-style: 40px;
+    color: #fff;
+    font-weight: bold;
+}
+#textmonial p{
+    color: #fff;
+}
+#textmonial .slid-title{
+    position: absolute;
+    left: 80px;
+    top: 50px;
+}
+
+/*BLOG*/
+
+#blog .blog-content h6{
+    color:#F57A36;
+    text-transform: uppercase;
+}
+#blog .blog-content h1{
+    font-size: 40px;
+}
+#blog .blog-content h1 span{
+    font-weight: bold;
+    
+}
+#bolg .blog-content-box h6{
+    font-size: 10px;
+}
+#blog .blog-content-box a{
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+}
+#blog .blog-content-box a:hover{
+    color:#F57A36; 
+}
+
+#blog .blog-content-box {
+    box-shadow:  2px 9px 44px #9d9c9c6e;
+}
+#blog .blog-content-box:hover{
+    box-shadow:  2px 9px 44px #888888;
+}
+#blog .btn {
+    padding: 10px 46px;
+    border-radius: 30px;
+    background: rgba(219, 146, 28, 0.31);
+    color: #e85615;
+}
+#blog .btn:hover{
+    background: rgb(219, 146, 28);
+    color: #fff;
+}
+
+/*FOOTER*/
+
+#main-footer li{
+    list-style: none;
+}
+
+#main-footer li a{
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
